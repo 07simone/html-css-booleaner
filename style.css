@@ -1,0 +1,36 @@
+.conteiner{
+    height: 100px;
+    background-color: blue;
+    background-image: url(img2/logo.svg);
+    background-repeat: no-repeat; 
+}
+
+
+
+strong{
+    color: aqua;
+}
+h4,h5{
+    color: lightgray;
+    margin: 0; 
+}
+
+.autori-foto{
+    font-size: 12px;
+}
+.paragrafi{
+  margin-right: 0px;
+}
+ .titoli-finali{
+     color: gray;
+ }
+
+ mark{
+     background-color: yellow;
+     
+ }
+.colorata{
+    background-color: rgb(21, 131, 182);
+    color: white;
+}
+ 
