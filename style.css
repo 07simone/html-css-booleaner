@@ -19,7 +19,8 @@ h4,h5{
     font-size: 12px;
 }
 .paragrafi{
-  margin-right: 0px;
+  padding: 0px;
+  margin: 0px;
 }
  .titoli-finali{
      color: gray;
@@ -29,8 +30,47 @@ h4,h5{
      background-color: yellow;
      
  }
-.colorata{
+.scritta-colorata{
     background-color: rgb(21, 131, 182);
     color: white;
 }
+
+tbody tr:nth-child(odd) {
+    background-color: #74cdf0;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ecedee;
+  }
+  
+  
+  table {
+    background-color: #74cdf0;
+  }
+ .immagine-1{
+    margin: 0px;
+    background-image: url('img2/monitor.jpg');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 140%;
+    font-weight: normal;
+    line-height: 300px;
+    text-align: center;
+    width: 250px;
+    height: 220px
+ }
+
+ .immagine-2{
+    margin: 0px;
+    background-image: url('img2/graph.jpg');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 140%;
+    font-weight: normal;
+    line-height: 300px;
+    text-align: center;
+    width: 250px;
+    height: 220px
+ }
+
  
